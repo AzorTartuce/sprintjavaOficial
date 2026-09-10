@@ -1,0 +1,16 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+
+# claude code 
+/.claude 
+/claude
+
+/ESTRUTURA_PROJETO_JAVA.md
+/SPRINT_3_E_4_CHALLENGE_2026_TOTVS.pdf 
+
+/docs
+
+/img
