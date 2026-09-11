@@ -115,11 +115,6 @@ Fluxo de análise: upload cria um `AnalysisJob` (`queued → running → done/fa
 processado de forma assíncrona pelo `service/ServicoAnalisePython.java`, que envia o arquivo
 para o motor Python e grava o resultado como `Meeting`.
 
-## Observação sobre credenciais
-
-`connection/ConnectionFactory.java` contém usuário e senha do Oracle **hardcoded no código**.
-Isso é um requisito explícito da disciplina (não uma prática recomendada para produção).
-
 ## Documentação adicional
 
 - `docs/BACKEND_JAVA_COMPLETO.md` — arquitetura detalhada, integração com front/Python e histórico de problemas resolvidos
