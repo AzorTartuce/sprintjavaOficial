@@ -4,11 +4,12 @@ services:
     container_name: backend
     ports:
       - "8000:8000"
-    environment:
-      - PYTHON_ANALISE_URL=http://python:8000/analisar
+    env_file:
+      - .env
     networks:
       - sprintjava-net
 
 networks:
   sprintjava-net:
     external: true
+
